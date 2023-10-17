@@ -1,0 +1,13 @@
+# virtual env
+Include
+Lib
+Scripts
+__pycache__
+
+# custom rule for exports directory
+exports/*
+!exports/README.md
+
+# custom rule for processed exports directory
+processed_exports/*
+!processed_exports/README.md
