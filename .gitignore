@@ -1,8 +1,5 @@
 # virtual env
-Include
-Lib
-Scripts
-__pycache__
+venv
 
 # custom rule for exports directory
 exports/*
@@ -11,3 +8,7 @@ exports/*
 # custom rule for processed exports directory
 processed_exports/*
 !processed_exports/README.md
+
+# misc
+.vscode
+__pycache__

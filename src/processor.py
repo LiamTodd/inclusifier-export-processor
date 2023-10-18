@@ -3,6 +3,7 @@ import os
 from src.constants import SINGLE_TYPE, ALL_TYPE, EXPORTS_DIR
 from src.utils import process_csv_file
 
+
 def main():
     if len(sys.argv) < 2:
         print("Error: Incorrect number of args.")
@@ -22,7 +23,7 @@ def main():
             return
         with open(file_path, newline="") as csvfile:
             process_csv_file(file_path, run_root)
-        
+
     elif run_type == ALL_TYPE:
         for file in os.listdir(EXPORTS_DIR):
             if file.endswith(".csv"):
@@ -31,7 +32,7 @@ def main():
     else:
         print("Error: Invalid run type.")
         return
-    
+
 
 if __name__ == "__main__":
     main()

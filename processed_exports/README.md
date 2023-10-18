@@ -1,1 +1,1 @@
-Processed export textfiles will be generated here.
+Processed export csvs will be generated here.
